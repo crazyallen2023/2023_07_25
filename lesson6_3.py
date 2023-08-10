@@ -4,7 +4,7 @@ max = 100
 num = 0
 target = random.randint(min, max)
 
-print("=========Guess Number Game==========")
+print("=========Guess Number Game==========\n\n")
 
 while True:
     guess = int(input(f"Enter a guess number between {min}~{max}:"))
